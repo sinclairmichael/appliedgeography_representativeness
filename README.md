@@ -21,9 +21,16 @@ Section 2.5 - 2.9 are the extraction of population comparisons for the advanced 
 
 #### Data sources used:
 A. Huq data (2019-2021) [tables: huq_2019; huq_2020; huq_2021]<br>
+Information: https://www.ubdc.ac.uk/data-services/data-catalogue/transport-and-mobility-data/huq-data/<br>
 B. Tamoco data (2019-2021) [tables: tamoco_2019; tamoco_2020; tamoco_2021]<br>
+Information: https://www.ubdc.ac.uk/data-services/data-catalogue/transport-and-mobility-data/tamoco-data/<br>
 C. Scottish Datazone boundaries and adult populations for 2020 [table: datazonesgcr_homelocation_count]<br>
+Information: http://spatialdata.gov.scot/<br>
 D. Postcode boundaries for Glasgow City Region with population for 2020 [table: caci_homelocation_count]<br>
+Information: https://www.nrscotland.gov.uk/statistics-and-data/geography/nrs-postcode-extract<br>
 E. Geomni UKBuildings land use data [table: ukbuildingsgcr_4326]<br>
+Information: https://www.verisk.com/en-gb/3d-visual-intelligence/products/ukbuildings/ (available through digimap)<br>
 F. SIMD 2020 data (joined to datazones [C])<br>
-G. CACI Acorn classification data (joined to postcodes [D])
+Information: https://www.gov.scot/collections/scottish-index-of-multiple-deprivation-2020/<br>
+G. CACI Acorn classification data (joined to postcodes [D])<br>
+Information: https://acorn.caci.co.uk/downloads/Acorn-User-guide.pdf<br>
