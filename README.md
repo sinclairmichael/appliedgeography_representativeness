@@ -1,7 +1,7 @@
-# Assessing the socio-demographic representativeness of mobile phone application data
-This repo contains the code used for the results in paper: 'Assessing the socio-demographic representativeness of mobile phone application data' in Applied Geography
+# Assessing the socio-demographic representativeness of mobile phone application data (Applied Geography)
+This repo contains the code used to pre-process mobile phone app data, estimate home area and extract population estimates geographically and socio-demographically.<br>
 
-Given the volume of data being processed, the pre-processing and post-processing of the data for home location estimates are completed using SQL on the database tables. The home location estimates for each of the techniques in this paper are completed in R (between pre and post processing) and results saved back to tables in the database for further analysis
+Given the volume of data being processed and the need for large spatial joins, the pre-processing and post-processing of the data for home location estimates are completed using SQL on the database tables. The home location estimates for each of the techniques in this paper are completed in R (between pre and post processing) and results saved back to tables in the database for the extraction of population estimates.
 
 ### The SQL file 'Complete SQL code.sql' contains the complete workflow which is as follows:
 Section 1: relates to the method 'Using activity heuristics only to estimate home location'<br>
