@@ -1947,7 +1947,7 @@ huq.*,
 zones.use, zones.data_level
 FROM huq_2019_datazone_evening huq
 JOIN public.ukbuildingsgcr_4326 zones
-ON ST_Intersects(tam.geom, zones.geom4326)
+ON ST_Intersects(huq.geom, zones.geom4326)
 where zones.use = 'RESIDENTIAL ONLY' 
 or zones.use = 'RETAIL WITH OFFICE/RESIDENTIAL ABOVE'
 or zones.use = 'RESIDENTIAL WITH RETAIL ON GROUND FLOOR';
@@ -1958,7 +1958,7 @@ huq.*,
 zones.use, zones.data_level
 FROM huq_2020_datazone_evening huq
 JOIN public.ukbuildingsgcr_4326 zones
-ON ST_Intersects(tam.geom, zones.geom4326)
+ON ST_Intersects(huq.geom, zones.geom4326)
 where zones.use = 'RESIDENTIAL ONLY' 
 or zones.use = 'RETAIL WITH OFFICE/RESIDENTIAL ABOVE'
 or zones.use = 'RESIDENTIAL WITH RETAIL ON GROUND FLOOR';
@@ -1969,7 +1969,7 @@ huq.*,
 zones.use, zones.data_level
 FROM huq_2021_datazone_evening huq
 JOIN public.ukbuildingsgcr_4326 zones
-ON ST_Intersects(tam.geom, zones.geom4326)
+ON ST_Intersects(huq.geom, zones.geom4326)
 where zones.use = 'RESIDENTIAL ONLY' 
 or zones.use = 'RETAIL WITH OFFICE/RESIDENTIAL ABOVE'
 or zones.use = 'RESIDENTIAL WITH RETAIL ON GROUND FLOOR';
